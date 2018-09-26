@@ -96,3 +96,7 @@ val mappedFinalOuptut = finalOutput.map(record => (broadcastedMovies.value()(rec
 
 // COMMAND ----------
 
+mappedFinalOuptut.foreach(println)
+
+// COMMAND ----------
+
